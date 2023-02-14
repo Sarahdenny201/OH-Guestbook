@@ -1,0 +1,97 @@
+{ 
+margin: 0;
+padding: 0;
+font-family:'Myriad Pro';
+box-sizing: border-box;
+}
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5), #091F40), url(stock11.jpeg);
+	background-position: center;
+	background-size: cover;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form{
+	width: 100%;
+	max-width: 600px;
+	font-family:'Myriad Pro','DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'
+}
+
+.input-group{ 
+margin-bottom: 40px;
+position:relative;
+}
+
+input{
+	Width: 100%;
+	padding: 5px;
+	Outline: 0;
+	border: 1px solid #fff;
+	background-color:#fffff;
+	opacity:50%;
+	Font-size: 15;
+	font-color:#fff;
+	align-content:center;
+	justify-content: center;
+	
+}
+
+label{
+	height: 100%;
+	position:absolute;
+	left:0px;
+	top:0;
+	padding:5px;
+	color: #fff;
+	cursor:text;
+	transition: 0.2s
+}
+
+Button {
+box-sizing:border-box;
+	padding: 20px;
+	color: #fff;
+	outline:none;
+	background: #CC122D;
+	width: 100%;
+	cursor: pointer;
+	font-family: 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 15px; }
+
+
+header{
+	align-iten:center;
+	width: 100%;
+	padding-bottom: 20px;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #fff;
+	font-size: 40px;	
+	background: 100%;
+	
+}
+input:focus~label,input:valid~label{
+	Top:-20px;
+	font-size:small; 
+	
+}
+
+header2{
+	color:#FFFFFf;
+	font-size: 12px;
+	align-items:center;
+	justify-content: center;
+	padding:30px
+}
+
+.center {
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+	height:20%;
+	Padding: 20px;}
